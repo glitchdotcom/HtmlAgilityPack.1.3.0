@@ -5,7 +5,7 @@ Fork of HtmlAgilityPack focused on performance and stability. Based on 1.3.0, be
 
 Changes include:
 
-* Rewriting HtmlNode.InnerText(), HtmlNode.WriteTo(), and HtmlNode.CloseNode()  to be iterative rather than recursive.
+* Rewriting HtmlNode.InnerText(), HtmlNode.WriteTo(), and HtmlNode.CloseNode() to be iterative rather than recursive ([issue 35060](https://htmlagilitypack.codeplex.com/workitem/35060)).
 * Patching HtmlNode.InnerText to use a StringBuilder.
 * Better handling of incorrect encoding declarations.
 
